@@ -12,7 +12,14 @@
 .header {
   height: 100vh;
   min-height: 600px;
-  max-height: 756px;
+  max-height: 756px; 
+  background-color: #f2f2f2;
+  position: relative;
+  color: #000000;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  padding-left: 64px;
   /* выше установили ограничения для секции */
 }
 
@@ -29,3 +36,62 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.logo{
+  border: 1px solid red;
+}
+
+.logo_place_header{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title{
+  margin: 0;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  width: 730px;
+  z-index: 2;
+  border: 1px solid red;
+}
+
+.header__subtitle{
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
+  border: 1px solid red;
+}
+
+.link{
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.main-illustration{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid red;
+  z-index: 1;
+}
+
+.header__square-pic{
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 0;
+}
+
