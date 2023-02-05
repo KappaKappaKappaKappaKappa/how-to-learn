@@ -12,7 +12,7 @@
 .header {
   height: 100vh;
   min-height: 600px;
-  max-height: 756px; 
+  max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
   color: #000000;
@@ -26,6 +26,11 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -81,13 +86,8 @@
 }
 
 .header__square-pic{
-  background-color: #2f80ed;
   width: 568px;
   height: 568px;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  z-index: 0;
 }
 
 .discription{
@@ -118,7 +118,7 @@
   display: flex;
   width: 80%;
   min-width: 784px;
-  gap: 30px
+  gap: 30px;
 
 }
 
@@ -178,7 +178,7 @@
 
 .table__heading{
   margin: 0;
-  line-height: 1.15; 
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
