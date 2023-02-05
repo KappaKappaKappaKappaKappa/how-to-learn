@@ -97,13 +97,13 @@
   justify-content: center;
 }
 
-.discription__two-columns{
+.two-columns{
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
 
-.discription__two-columns_brief{
+.two-columns__brief{
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -113,7 +113,7 @@
   flex-direction: column;
 }
 
-.discription__two-columns_main-text{
+.two-columns__main-text{
   flex-direction: column;
   display: flex;
   width: 80%;
@@ -122,14 +122,14 @@
 
 }
 
-.discription__two-columns_paragraph{
+.two-columns__paragraph{
   margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.discription__two-columns_span-accent{
+.two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -238,7 +238,6 @@
 }
 
 .kaufman{
-  color: #f2f2f2;
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
@@ -250,18 +249,15 @@
 }
 
 .section-title_theme_dark{
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
+  color: #f2f2f2;
 }
 
 .section-subtitle_theme_dark{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+  color: #f2f2f2;
 }
 
 .table_theme_dark{
+  color: #f2f2f2;
 }
 
 .table__cell_theme_dark{
@@ -289,3 +285,80 @@
   top: 0;
   z-index: -1;
 }
+
+.footer{
+min-height: 350px;
+background-color:  #1f1f1f;
+color: white;
+display: flex;
+justify-content: center;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+.footer__columns{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author{
+  margin: 0;
+  padding: 18px 0;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.logo_place_footer{
+  width: 228px;
+}
+
+.column_content_copyright{
+  flex-basis: 711px;
+  position: relative;
+}
+
+.column_content_info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column_content_social{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 16px;
+}
+
+.column-heading{
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.column-links{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+  gap: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.social-icon{
+  padding-right: 10px;
+}
+
+.column-link{
+  text-decoration: none;
+  color: white;
+}
+
