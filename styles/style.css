@@ -125,7 +125,7 @@
   font-weight: 600;
 }
 
-.digit {
+.digits {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,6 +281,7 @@
   height: 877px;
   right: -210px;
   top: 0;
+  background-size: contain;
   z-index: -1;
 }
 
@@ -312,16 +313,14 @@
 .logo_place_footer {
 }
 
-.footer__column_content_copyright {
-  display: flex;
-  flex-basis: 711px;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .footer__column{
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
@@ -348,7 +347,7 @@
   font-weight: normal;
 }
 
-.social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   padding-right: 10px;
