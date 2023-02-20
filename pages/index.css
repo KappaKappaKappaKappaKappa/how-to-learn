@@ -1,7 +1,7 @@
 /* GLOBAL */
-@import url(../blocks/normalize/normalize.css);
+@import url(../blocks/vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/opacity.css);
+@import url(../blocks/opacity/opacity.css);
 
 
 /* LOGO */
@@ -63,9 +63,9 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column/_content/_info/footer__column_content_info.css);
-@import url(../blocks/footer/__column/_content/_social/footer__column_content_social.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
@@ -108,3 +108,4 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/logo-zone/logo-zone.css);
 @import url(../blocks/logo-zone/__link/logo-zone__link.css);
+@import url(../blocks/logo-zone/__image/logo-zone__image.css);
